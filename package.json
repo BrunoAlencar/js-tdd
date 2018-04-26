@@ -1,0 +1,30 @@
+{
+  "name": "js-tdd",
+  "version": "1.0.0",
+  "description": "Learning how to TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoAlencar/js-tdd.git"
+  },
+  "keywords": [
+    "TDD",
+    "teste",
+    "javascript",
+    "study"
+  ],
+  "author": "Bruno Alencar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrunoAlencar/js-tdd/issues"
+  },
+  "homepage": "https://github.com/BrunoAlencar/js-tdd#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0"
+  }
+}
