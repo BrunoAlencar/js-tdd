@@ -1,0 +1,10 @@
+{
+  "extends": "airbnb-base",
+  "files": [
+    {
+      "patterns": "**/*Spec.js",
+      "rules": { "no-unused-expression": 0 },
+      "env": { "mocha": true }
+    }
+  ]
+}

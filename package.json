@@ -4,8 +4,8 @@
   "description": "Learning how to TDD",
   "main": "index.js",
   "scripts": {
-    "test": "test",
-    "prepush": "npm run lint",
+    "test": "./node_modules/.bin/mocha tests/**/*.spec.js",
+
     "lint": "./node_modules/.bin/eslint src/*.js"
   },
   "repository": {
@@ -25,9 +25,11 @@
   },
   "homepage": "https://github.com/BrunoAlencar/js-tdd#readme",
   "devDependencies": {
+    "chai": "^4.1.2",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.11.0",
-    "husky": "^0.14.3"
+    "husky": "^0.14.3",
+    "mocha": "^5.1.1"
   }
 }
