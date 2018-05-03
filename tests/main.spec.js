@@ -8,6 +8,7 @@ describe('Spotify Wrapper', () => {
     it('Should exist the `search` method', () => {
       expect(search).to.exist
     })
+
   })
 })
 
