@@ -11,8 +11,8 @@
     "lint": "./node_modules/.bin/eslint src/*.js"
   },
   "nyc": {
-    "functions": 80,
-    "lines": 80,
+    "functions": 0,
+    "lines": 0,
     "check-coverage": true,
     "reporter": ["text", "html"],
     "exclude": ["tests/**"]
