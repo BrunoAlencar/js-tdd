@@ -3,6 +3,9 @@ import { expect } from 'chai';
 import FizzBuzz from '../src/fizzBuzz';
 
 describe('FizzBuzz', () => {
+  it('should return `num`when num === 0', () => {
+    expect(FizzBuzz(0)).to.be.equal(0);
+  })
 
   it('should return `Fizz` when multiple of 3', () => {
     expect(FizzBuzz(3)).to.be.equal('Fizz');
