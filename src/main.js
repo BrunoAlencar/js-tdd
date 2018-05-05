@@ -1,3 +1,7 @@
 export const search = () => {
-  return ;
-}
+  fetch('https://spotify.com')
+ }
+export const searchArtists = () => { }
+export const searchAlbums = () => { }
+export const searchTracks = () => { }
+export const searchPlaylists = () => { }
